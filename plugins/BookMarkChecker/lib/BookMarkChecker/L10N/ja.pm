@@ -1,7 +1,6 @@
 package BookMarkChecker::L10N::ja;
-
 use strict;
-use base qw/ BookMarkChecker::L10N MT::L10N MT::Plugin::L10N /;
+use base qw( BookMarkChecker::L10N MT::L10N MT::Plugin::L10N );
 use vars qw( %Lexicon );
 
 our %Lexicon = (
@@ -18,6 +17,8 @@ our %Lexicon = (
     'Check Livedoor clip' => 'Livedoor クリップ',
     'Check Yahoo! BookMark' => 'Yahoo! ブックマーク',
     'Check Buzzurl' => 'Buzzurl',
-    );
+    'Setting for edit screen' => '編集画面に関する設定',
+    'Setting for listing screen' => '一覧画面に関する設定',
+);
 
 1;
